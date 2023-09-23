@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+}
+
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#add-abbits{
+    width:700px;
+    height: 250px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+#add-abbits>h1{
+    font-size: 35px;
+    border-bottom: 1px solid gray;
+}
+
+/* habit card */
+#habit-card{
+    width: 700px;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#habit-card>.card-head{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+#habit-card>.card-head>.habit-name{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#habit-card>.card-head>.habit-name>h5{
+    border: 1px solid rgb(25, 145, 210);
+    background-color: rgb(25, 145, 210);
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #fff;
+}
+#habit-card>.card-head>.habit-name>span{
+    border: 1px solid rgb(100, 112, 112);
+    background-color: rgb(100, 112, 112);
+    padding: 2px 8px;
+    border-radius: 4px;
+    height: 32px;
+    color: #fff;
+}
+.delete-habit>a>i{
+    color: red;
+}
+.delete-habit>a>i:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+.card-body{
+
+    margin-top: 30px;
+    top: 0px;
+    height: 100px;
+    width: 598px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.card-body>.card-status{
+    padding: 5px;
+    width: 80px;
+    height: 158px;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-body>.card-status>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(25, 145, 210);
+    text-align: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+.card-body>.card-status>a>span{
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    font-size: 30px;
+
+}
+
+.space{
+    height: 50px;
+}
+
+
