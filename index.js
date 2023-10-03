@@ -20,5 +20,5 @@ app.listen(PORT , (error) => {
     if(error){console.log(`Error in running the server ${error}`);}
 
     console.log(`Server is up and running `);
-    console.log('---------------------------------------------------------------------------------------------------------------');
+    
 })
