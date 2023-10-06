@@ -15,7 +15,7 @@ This app helps you track your habits and maintain streaks. It also displays a 7-
 1. Clone the repo: `git clone https://github.com/Chetan0000/Habit-Tracker.git`
 2. Install the dependencies: `npm install`
 3. Start the server: `npm start`
-4. Visit the app in your browser: `https://habit-tracker-meby.onrender.com`
+4. Visit the app in your browser: `https://habit-tracker-f3w9.onrender.com`
 
 ### Usage
 
